@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>J.Zań</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="kontakt.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+  <div class="banner container-fluid">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-transparent">
+      <a class="navbar-brand logo" href="index.html"> J.Zań
+        <p class="h5">Kancelaria adwokacka</p>
+      </a>
+      <button class="navbar-toggler baton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon button-color"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar-dark" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link " href="index.html">Strona Główna<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link " href="uslugi.html">Usługi</a>
+          <a class="nav-item nav-link active" href="kontakt.html">Kontakt</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="contacts container-fluid">
+    <div class="row">
+      <p class="h1 innerHeader"> Kontakt </p>
+    </div>
+    <div class="row">
+      <div class="col-10">
+        <p class="email h3">Email</p>
+        <p class="email h5">Jestem_Zaniu@wp.pl</p>
+      </div>
+      <div class="col-2">
+        <p class="fontMail">
+          <i class="fas fa-envelope contact fontInside"></i>
+          <i class="fas fa-caret-down arrowDown emailDown fontInside"></i>
+        </p>
+      </div>
+
+      <form class="col-12 textForm" method="post" action="contactForm.php">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Adres e-mail</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="Tu wpisz swój e-mail">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1" name="issueType">Wybierz rodzaj problemu</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1" name="issueDescription">Opisz problem</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Tu opisz swój problem..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary form-group float-right">Wyślij</button>
+
+      </form>
+    </div>
+    <div class="row">
+      <div class="col-10">
+        <p class="email h3">Telefon</p>
+        <p class="email h5">513-159-215</p>
+      </div>
+      <div class="col-2">
+        <p class="fontPhone">
+          <i class="fas fa-phone contact fontInside"></i>
+
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-10">
+        <p class="email h3">Adres</p>
+        <p class="email h5">Nisko Ul. Wolności 3A</p>
+      </div>
+      <div class="col-2">
+        <p class="fontAdres">
+          <i class="fas fa-home contact fontInside"></i>
+          <i class="fas fa-caret-down arrowDown adresDown fontInside"></i>
+        </p>
+
+      </div>
+      <div class="col-12 mapDiv">
+        <!--The div element for the map -->
+        <div id="map"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer1">
+    <footer class="footer">
+      <div="conteiner-fluid">
+        <div class='row container-fluid firstDiv'>
+          <div class="col-8 text-center">
+            <p class="textFooter1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula suscipit velit a fringilla. Quisque faucibus ante rhoncus massa vehicula imperdiet. Duis vehicula placerat dolor, in consectetur sem
+              consequat vel. Vivamus maximus sit amet velit ut porta. Nulla vitae urna.</p>
+          </div>
+          <div class="col-4">
+            <img src="url/nisko.png" class="footerImage rounded mx-auto d-block">
+          </div>
+        </div>
+
+    </footer>
+    <div class="mostBottom">
+      ALL RIGHT RESERVED &copy 2018
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_pY0UaCWre2XrFmN0IEhQkqHK7YnLWNA&callback=initMap">
+  </script>
+  <script src="javascript2.js"></script>
+</body>
+
+</html>

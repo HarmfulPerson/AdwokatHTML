@@ -1,0 +1,265 @@
+body {
+  max-width: 100%;
+  font-family: 'Playfair Display', serif;
+}
+
+.banner {
+  margin: 0;
+  padding: 0;
+  background: url(Url/law.jpg);
+  width: 100%;
+  position: fixed;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.nav-item {
+  margin: 0 80px;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  margin-right: 100px;
+  margin-left: 50px;
+  color: black;
+}
+
+.navbar-trans {
+  margin-top: 80px;
+}
+
+.quote {
+  font-family: 'Dancing Script', cursive;
+  margin-top: 400px;
+  animation-name: quote_easing;
+  animation-duration: 3s;
+  position: absolute;
+  z-index: -3;
+  font-size: 23px;
+  margin-left: 5%;
+  margin-right: 40px;
+}
+
+.under-brand {
+  font-family: apple
+}
+
+.navbarCollapsed {
+  z-index: 10;
+}
+
+@keyframes quote_easing {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes brand_easing {
+  from()
+}
+
+.logo {
+  text-align: center;
+  color: black;
+}
+
+.logo:hover {
+  color: black;
+}
+
+.upperContact {
+  min-height: 30px;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.contacts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 60%;
+}
+
+.insideContact {
+  display: inline-block;
+  margin: 9px 5px 5px 5px;
+  color: white;
+  opacity: 0.6;
+}
+
+.insideContact:hover {
+  opacity: 1;
+  color: white;
+}
+
+.navbar .navbar-brand {
+  color: black;
+}
+
+.navbar .navbar-brand:hover {
+  color: black;
+}
+
+.contact {
+  float: left;
+  overflow: hidden;
+}
+
+.second_page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.side {
+  float: left;
+  background-color: red;
+  width: 20%
+}
+
+.middle {
+  float: left;
+  width: 60%;
+}
+
+.loader {
+  z-index: 10000000;
+  position: fixed;
+  font-size: 60px;
+  background-color: #DEB887;
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: table;
+}
+}
+
+.logo1 {
+  font-family: 'Dancing Script', cursive;
+  margin-right: 100px;
+  margin-left: 50px;
+  color: black;
+  position: relative;
+  font-size: 200px;
+}
+
+.circle {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  position: relative;
+  font-size: 190px;
+}
+
+a.navbar-brand.logo1 {
+  font-size: 200px;
+}
+
+a.navbar-brand.logo1:hover {
+  color: black;
+}
+
+.spinner {
+  height: 100px;
+  position: relative;
+  margin: 70px auto 0 auto;
+  width: 100px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  border-top-color: #D2691E;
+  border-bottom-color: #D2691E;
+  animation: spinny 2s ease-in-out infinite
+}
+
+@keyframes spinny {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .contacts {
+    margin-left: 55%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .contacts {
+    margin-left: 45%;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .contacts {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 895px) {
+  .contacts {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .contacts {
+    margin-left: 20%;
+    text-align: center;
+  }
+
+  .logo1 {
+    margin: 0 auto;
+    font-size: 100px;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .quote {
+    margin-top: 300px;
+  }
+}
+
+@media only screen and (max-width:655px) {
+  .contacts {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width:578px) {
+  .contacts {
+    margin-left: 0%;
+  }
+
+  .quote {
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (max-width:256px) {
+  .quote {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:578px) {
+  .logo1 {
+    font-size: 40px;
+  }
+}
